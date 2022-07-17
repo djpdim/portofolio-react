@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "Run-Buddy",
+        "image": "https://github.com/djpdim/run-buddy/blob/main/assets/image/hero-bg2.jpeg",
+        "github": "https://github.com/djpdim/Run-Buddy",
+        "deploy": "https://djpdim.github.io/run-buddy/",
+        "topics": "HTML, CSS"
+    },
+    {
+        "id": 2,
+        "name": "Bibli-Studios",
+        "image": "https://github.com/djpdim/Bibli-Studios/blob/main/public/images/Bibli-Studio.jpg",
+        "github": "https://github.com/djpdim/Bibli-Studios",
+        "deploy": "https://desolate-brushlands-50031.herokuapp.com/",
+        "topics": "node, sequelize, handlebars, express-session, jawsdb, mysql, model-view-controller, dotenv"
+    },
+    {
+        "id": 3,
+        "name": "mcTech-Blog",
+        "image": "https://github.com/djpdim/mctech-tech-blog/blob/main/public/images/mctechsmaller.png",
+        "github": "https://github.com/djpdim/mctech-tech-blog",
+        "deploy": "https://mctech-tech-blog.herokuapp.com/",
+        "topics": "node, sequelize, handlebars, express-session, jawsdb, mysql, model-view-controller, dotenv"
+    },
+    {
+        "id": 4,
+        "name": "Weather Dashboard",
+        "image": "https://github.com/djpdim/weatherboard/blob/main/assets/images/weatherboard.png",
+        "github": "https://github.com/djpdim/weatherboard",
+        "deploy": "https://djpdim.github.io/weather-dashboard/",
+        "topics": "moment.js, javascript, jQuery, localStorage, API"
+    },
+    {
+        "id": 5,
+        "name": "Budget Tracker",
+        "image": "https://github.com/djpdim/pwa-budget-tracker/raw/main/docs/pwa-budget-tracker.png",
+        "github": "https://github.com/djpdim/pwa-budget-tracker",
+        "deploy": "https://pwa-budget-traker.herokuapp.com/",
+        "topics": "node, express, javascript, mongoDB, mongoose, nodemon"
+    },
+    {
+        "id": 6,
+        "name": "Work Day Scheduler",
+        "image": "https://github.com/djpdim/work-day-scheduler/blob/main/assets/images/workschedule.png",
+        "github": "https://github.com/djpdim/work-day-scheduler",
+        "deploy": "https://djpdim.github.io/work-day-scheduler/",
+        "topics": "HTML5, CSS, Javascript, JQuery, Bootstrap"
+    }
+]
