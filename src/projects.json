@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "name": "Bibli-Studios",
+        "image": "https://github.com/djpdim/Bibli-Studios/blob/main/public/images/biblihomepage.png?raw=true",
+        "github": "https://github.com/djpdim/Bibli-Studios",
+        "deployedapp": "https://bibli-studios.herokuapp.com/",
+        "description": "An application that allows the user to save movies and books.",
+        "skills": "Express | MySQL | API | Handlebars | MVC | ORM | Express"
+    },
+    {
+        "id": 2,
+        "name": "Travel Easy",
+        "image": "https://github.com/djpdim/TravelEasyProject1/blob/main/assets/images/vacation1.jpg?raw=true",
+        "github": "https://github.com/djpdim/TravelEasyProject1",
+        "deployedapp": "https://djpdim.github.io/TravelEasyProject1/",
+        "description": "The Travel Easy application is aimed to allow users to search hotels and check the weath for their desired dates and cities.",
+        "skills": "HTML | CSS | JavaScript | OneWeather API/ Hotel Look API | MaterializeCSS"
+    },
+    {
+        "id": 3,
+        "name": "mcTech-Blog",
+        "image": "https://github.com/djpdim/mctech-tech-blog/blob/main/public/images/mctechhomepage.png?raw=true",
+        "github": "https://github.com/djpdim/mctech-tech-blog",
+        "deployedapp": "https://mctech-tech-blog.herokuapp.com/",
+        "description": "A blog where developers can publish their blog posts and comment on other developers post and can create sign up or login into an account.",
+        "skills": "Handlebars | Sequelize | Express | API | MVC | ORM"
+    },
+    {
+        "id": 4,
+        "name": "Budget Tracker",
+        "image": "https://github.com/djpdim/expensify-budget/blob/main/public/images/Screen%20Shot%202022-07-18%20at%2011.24.45%20PM.png?raw=true",
+        "github": "https://github.com/djpdim/expensify-budget",
+        "deployedapp": "https://dp14-budget-tracker.herokuapp.com/",
+        "description": "This project is an application that allows users to add expenses and deposits to their budget with or without internet connection.",
+        "skills": "IndexDB | Service Workers | Web Manifest"
+    },
+    {
+        "id": 5,
+        "name": "WeatherBoard",
+        "image": "https://github.com/djpdim/weatherboard/blob/main/assets/images/weatherboard.png?raw=true",
+        "github": "https://github.com/djpdim/weatherboard",
+        "deployedapp": "https://dry-harbor-54501.herokuapp.com/",
+        "description": "This is an application where a user can search for the city of their preference and get a 5 day forecast of the weather.",
+        "skills": "HTML | CSS | JavaScript | OneWeather API | MaterializeCSS"
+    },
+    {
+        "id": 6,
+        "name": "Work Day Scheduler",
+        "image": "https://github.com/djpdim/work-day-scheduler/blob/main/assets/images/workschedule.png?raw=true",
+        "github": "https://github.com/djpdim/work-day-scheduler",
+        "deployedapp": "https://djpdim.github.io/work-day-scheduler/",
+        "description": "This application uses third-party API and JavaScript to create a calendar-style scheduler allowing users to save events for each hour of the day.",
+        "skills": "JavaScript | jQuery | API | DOM"
+    },
+    {
+        "id": 7,
+        "name": "Note Taker",
+        "image": "https://github.com/djpdim/note-taker/blob/main/public/assets/images/notetaker.png?raw=true",
+        "github": "https://github.com/djpdim/note-taker",
+        "deployedapp": "https://notetakerdp.herokuapp.com/",
+        "description": "This application was created to allow users to read, write, save, and delete notes.",
+        "skills": "Node | Express | jQuery"
+    }
+]

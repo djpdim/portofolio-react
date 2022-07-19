@@ -2,14 +2,21 @@ import React from "react"
 
 function Footer() {
     return (
-        <footer id="contact-me" className="hero">
-            <div className="hero-contact">
-                <h2 className="contact">Contact Me</h2>
-                <a href="tel:+1 555.555.5555">+1 555.555.5555</a>
-                <a href="mailto:info@portofolio.com">info@portofolio.com</a>
-                <a href="https://github.com/djpdim">GitHub</a>
-            </div>
-        </footer>
+        <div className="page-footer" id="footer">
+            <a target="_blank" href="https://github.com/djpdim">
+                <img src="https://img.icons8.com/ios/80/000000/github.png" alt="github-logo" class="icon" />
+            </a>
+            <a target="_blank" href="https://www.linkedin.com/in/dimosthenis-pagkas-b5301aa7/">
+                <img
+                    src="https://img.icons8.com/fluent/80/000000/linkedin-circled.png"
+                    alt="linkedin-logo"
+                    class="icon"
+                />
+            </a>
+            <a target="_blank" href="https://stackoverflow.com/users/18124537/djpdim">
+                <img src="https://img.icons8.com/ios/80/000000/stackoverflow.png" alt="stack-overflow" class="icon" />
+            </a>
+        </div>
     )
 }
 

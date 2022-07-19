@@ -1,29 +1,43 @@
-import React, { Component } from "react"
-import { HashRouter, Redirect, Route } from "react-router-dom"
-import About from "../../components/About"
-import Contact from "../../components/Contact"
-import Navigation from "../../components/Navigation"
-import Portfolio from "../../components/Portfolio"
-import Resume from "../../components/Resume"
+import React, { useState } from 'react';
+import Navigation from '../Navigation';
+import About from '../About';
+import Projects from '../Projects';
+import Contact from '../Contact';
+import Footer from '../Footer'
+import Resume from '../Resume'
 
-class Header extends Component {
-    render() {
-        return (
-            <HashRouter>
-                <header>
-                    <Navigation />
-                </header>
+function Portfolio() {
+    // state of current page
+    const [currentPage, handlePageChange] = useState("About")
 
-                <div className="content">
-                    <Route exact path="/" render={() => <Redirect to="/about" />} />
-                    <Route path="/about" component={About} />
-                    <Route path="/portfolio" component={Portfolio} />
-                    <Route path="/contact" component={Contact} />
-                    <Route path="/resume" component={Resume} />
-                </div>
-            </HashRouter>
-        )
+    const renderPage = () => {
+        // switch statement that will return the appropriate component of the 'currentPage'
+        switch (currentPage) {
+            case "about":
+                return <About></About>
+            case "contact":
+                return <Contact></Contact>
+            case "portfolio":
+                return <Projects></Projects>
+            // case "resume":
+            // return <Resume></Resume>
+            default:
+                return <About></About>
+        }
     }
+
+    return (
+        <div>
+            <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
+            <div>
+                {
+                    // Render the component returned by 'renderPage()'
+                    renderPage()
+                }
+                <Footer/>
+            </div>
+        </div>
+    )
 }
 
-export default Header
+export default Portfolio
