@@ -61,5 +61,14 @@
         "deployedapp": "https://notetakerdp.herokuapp.com/",
         "description": "This application was created to allow users to read, write, save, and delete notes.",
         "skills": "Node | Express | jQuery"
+    },
+    {
+        "id": 8,
+        "name": "Purrfect Paws",
+        "image": "https://github.com/djpdim/purrfect-paws/blob/main/client/public/images/purrfect-paws-home.png?raw=true",
+        "github": "https://github.com/djpdim/purrfect-paws",
+        "deployedapp": "https://dp-purrfect-paws.herokuapp.com/",
+        "description": "This application was created to help pet lovers get services for their pets.",
+        "skills": "React | Apollo | GraphQL | Node | Express | MongoDB | Heroku"
     }
 ]
